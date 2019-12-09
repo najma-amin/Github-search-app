@@ -1,0 +1,41 @@
+<div class="container-fluid">
+    <app-form (searchName)='locateName($event)'></app-form>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 sticky">
+                <div class="card-body">
+                    <div *ngFor='let myUser of myUser'>
+                        <div class="row">
+                            <img class="img-thumbnail" src="{{myUser.avatar_url}}" alt="User avatar">
+                            <div class="card-body text-center">
+                                <h3>{{myUser.name}}</h3>
+                                <div class="d-inline">
+                                    <p>Followers <br> {{myUser.followers}} </p>
+                                    <p>Following <br> {{myUser.following}} </p>
+                                </div>
+                                <hr>
+                                <p> <b class="mb-4">Bio</b> <br class="m-4"> {{myUser.bio}} </p>
+                            </div>
+                        </div>                        
+                        <a href="{{myUser.html_url}}" target="_blank"><button class="btn btn-primary">Follow on Github </button></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <h3>Repositories</h3>
+                <div *ngFor='let myRepo of myRepos'>
+                    <div *ngFor='let myRep of myRepo'>                        
+                        <p> <b>{{myRep.name}}</b></p>
+                        <hr>
+                        <p> {{myRep.description}} </p>
+                        <p>{{myRep.forks}}</p>
+                        <p>{{myRep.language}}</p>
+                        <a href="{{myRep.html_url}}" target="_blank"><button class="btn">View on Github</button></a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
