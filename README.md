@@ -1,4 +1,4 @@
-gitHub
+##### GitHub Search
 by Jacques Kiruma.
 Description
 
