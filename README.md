@@ -1,5 +1,7 @@
+
+
 ##### GitHub Search
-by Jacques Kiruma.
+by Najma Amin.
 Description
 
 gitHub is an application where users are able to search for other github users and view a list of their repositories.
