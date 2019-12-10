@@ -1,9 +1,11 @@
-![screenshot](https://ibb.co/jVRv9Fc)
+![screenshot](https://i.ibb.co/1s6fYxD/readmescrn.png)
 
 ##### GitHub Search
+
 by Najma Amin.
 
 ###### Description
+
 gitHub is an application where users are able to search for other github users and view a list of their repositories.
 Technology Used
 
