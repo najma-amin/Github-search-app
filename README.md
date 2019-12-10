@@ -3,7 +3,7 @@
 ##### GitHub Search
 by Najma Amin.
 
-- Description
+###### Description
 gitHub is an application where users are able to search for other github users and view a list of their repositories.
 Technology Used
 
